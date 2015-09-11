@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="Scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="Scripts/Show.js"></script>
+
+<h1>Javascript CheckBox Show Demo</h1>
+
+<div id="input1">
+    品名：<input type="text" name="ProductName"><br>
+    條碼：<input type="text" name="BarCode">
+</div>
+
+<input type="checkbox" onclick="show(this,'input2');">製造/有效期限
+
+<div id="input2" style="display:none">
+    製造期限：<input type="text" name="MAN"><br>
+    有效期限：<input type="text" name="EXP">
+</div>
+
+</body>
+</html>
